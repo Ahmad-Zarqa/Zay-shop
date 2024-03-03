@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* start Nav */
+
+nav {
+    background-color: white;
+}
+
+nav h1 {
+    opacity: 0.8;
+}
+
+nav .page-list li {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+nav .page-list li a :hover {
+    color: rgba(77, 185, 55, 0.425);
+}
+
+nav ul li span {
+    background-color: #e9eef5;
+    top: -10%;
+    left: 50%;
+    font-size: 14px;
+}
+
+/* end Nav */
+
+/* start hero */
+
+.hero {
+    background-color: #efefef;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.hero h1 {
+    opacity: 0.8;
+    font-weight: 200;
+}
+
+.previous,
+.next {
+    font-size: 50px !important;
+}
+
+/* end hero */
+
+/* start categories */
+
+.header {
+    opacity: 0.9;
+    font-weight: 400;
+}
+
+.categories-card img {
+    width: 250px;
+    height: 250px;
+}
+
+/* end categories */
+
+/* start Featured Product */
+
+.featured-product {
+    background-color: #efefef;
+}
+
+/* end Featured Product */
+
+/* start footer */
+
+footer {
+    background-color: #212934;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li a:hover {
+    color: #69bb7e !important;
+}
+
+.social li {
+    width: 3.2rem !important;
+    height: 3.2rem !important;
+    line-height: 3.2rem !important;
+}
+
+.social li:hover {
+    background-color: white;
+    transition: 0.5s all 0.1s;
+    a{
+        color: #212934 !important;
+    }
+}
+
+.copy{
+    background-color: #1d242d !important;
+}
+.copy a:hover{
+    color: #69bb7e !important;
+}
+
+
+
+/* end footer */
+
+/* start media */
+@media screen and (max-width: 575px) {
+    nav ul li span {
+        left: 1% !important;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    nav ul li span {
+        left: 1% !important;
+    }
+
+    nav .page-list li {
+        padding: 0;
+    }
+
+    .icons {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .icons li {
+        display: inline;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    nav ul li span {
+        top: -15% !important;
+        left: 50% !important;
+    }
+
+    nav .page-list li {
+        padding: 0;
+    }
+
+    .icons {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .icons li {
+        display: inline;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {}
+
+/* end media */
